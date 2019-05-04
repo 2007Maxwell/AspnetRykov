@@ -14,6 +14,7 @@ namespace AspnetRykov.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+           // throw new Exception("Rykov exception" );
             return new string[] { "value1", "value2" };
         }
 
